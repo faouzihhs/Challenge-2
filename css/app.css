@@ -1,0 +1,135 @@
+/* Desktop */
+@media only screen and (max-width: 1024px) {
+    html, body{
+        /*height: 100% !important;*/
+    }
+    .container{
+        background-color: aqua !important;
+    }
+}
+/* Tablet */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    html, body{
+        /*height: auto !important;*/
+    }
+    .container{
+        /*padding: 40px 0 !important;*/
+        background-color: green !important;
+    }
+    .icon{
+        display: none !important;
+    }
+    .date{
+        padding-left: 30px !important;
+    }
+    .hours{
+        display: block !important;
+    }
+    .delimiter{
+        display: none!important;
+    }
+    .minutes{
+        display: inline-block !important;
+    }
+    .time{
+        /*background-color: aqua;*/
+        text-align: center;
+    }
+}
+/* Mobile */
+@media only screen and (max-width: 767px) {
+    html, body{
+        /*height: auto !important;*/
+    }
+    .container{
+        /*padding: 10px 0 !important;*/
+        background-color: orange !important;
+    }
+    .icon{
+        display: none !important;
+    }
+    .time{
+        text-align: center;
+    }
+    .hours{
+        display: block !important;
+    }
+    .delimiter{
+        display: none!important;
+        /*visibility: hidden !important;*/
+    }
+    .minutes{
+        display: inline-block !important;
+    }
+}
+html, body{
+    margin: 0;
+    width: 100%;
+    /*height: 100%;*/
+    height: 100vh;
+    color: white;
+    font-family: 'Poppins', Arial;
+}
+.grad-night{
+    background: rgb(128,8,244);
+    background: linear-gradient(180deg, rgba(128,8,244,1) 35%, rgba(168,91,243,1) 100%);
+}
+.grad-morning{
+    background: rgb(53,206,230);
+    background: linear-gradient(180deg, rgba(53,206,230,1) 35%, rgba(159,248,254,1) 100%);
+}
+.grad-day{
+    background: rgb(255,151,77);
+    background: linear-gradient(180deg, rgba(255,151,77,1) 35%, rgba(255,203,123,1) 100%);
+}
+.grad-evening{
+    background: rgb(1,119,254);
+    background: linear-gradient(180deg, rgba(1,119,254,1) 35%, rgba(102,173,235,1) 100%);
+}
+.icon{
+    /*background-color: green;*/
+    display: flex;
+    /*align-items: flex-end;*/
+    /*align-content: flex-end;*/
+    /*align-self: flex-end;*/
+    justify-content: flex-end;
+}
+.container{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.content{
+    /*background-color: aqua;*/
+}
+.date{
+    font-size: 2em;
+    font-weight: 300;
+    z-index: 3;
+    padding-left: 15px;
+}
+.time{
+    font-size: 12em;
+    font-weight: 600;
+    line-height: 0.9em;
+    z-index: 2;
+    /*background-color: green;*/
+}
+.hours{
+    /*background-color: darkblue;*/
+    display: inline-block;
+}
+.delimiter{
+    display: inline-block;
+}
+.minutes{
+    /*background-color: blue;*/
+    display: inline-block;
+}
+.to-sleep{
+    font-size: 2em;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 40px;
+}
