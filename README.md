@@ -2,7 +2,7 @@
 Faouzi Khattach 18065333
 
 # Challenge 2
-Link naar het dashboard: https://faouzihhs.github.io/Challenge-2/
+Link naar het dashboard: https://faouzihhs.github.io/Challenge-2/ <br>
 Link naar wireframes: 
 
 # Onderbouwing
